@@ -1,0 +1,10 @@
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+.env
+.idea/
+*.log
+local_settings.py
