@@ -26,16 +26,7 @@ SECRET_KEY = 'django-insecure-lkm*tr7$nf&pba!xe^z)+h(y*um5u05359ls^c5k(#ucl%27u#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    '127.0.0.1',  
-    'localhost',
-    'https://15ed-103-251-59-252.ngrok-free.app',
-    '8326-103-251-59-252.ngrok-free.app',
-    '5833-103-251-59-252.ngrok-free.app',
-    '49ee-152-58-35-149.ngrok-free.app',
-    'http://localhost:3000/game',
-    'lotus-deutsche-rendered-plaintiff.trycloudflare.com'
-]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
